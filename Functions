@@ -1,0 +1,22 @@
+//function calculatetax
+doublecalculatetax(double amount) {return amount *0.10;
+}
+//function converToUpperCase
+StringconvertToUpperCase(String text) {return text.toUpperCase():
+}
+//findMaximum
+doublefindMaximum(double num1, double num2) {if (num1 > num2){return num1;} else {return num2;}
+}
+//isPalindrome
+isPalindrome(String word) { String reversedWord = new StringBuilder(word).reverse().toString();
+if word.equals(reversedWord) {
+    return true;
+} else {
+    return false;
+}
+}
+//calculateDiscountedPrice
+double calculateDiscountedPrice(double originalPrice, double discountPercentage) {
+    double discountedPrice = originalPrice * (discountPercentage / 100);
+    return originalPrice - discountedPrice;
+}
